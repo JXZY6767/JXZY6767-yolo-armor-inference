@@ -1,0 +1,7 @@
+# Major dependency versions recorded from the local Windows environment.
+# Python: 3.14.4. The documented inference command uses CPU.
+ultralytics==8.4.177
+torch==2.14.1
+torchvision==0.29.1
+opencv-python==5.0.0.93
+numpy==2.5.4

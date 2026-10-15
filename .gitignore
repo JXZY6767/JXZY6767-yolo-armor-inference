@@ -1,0 +1,37 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model weights and exported models
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Original and rendered videos (submitted separately)
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[aA][vV][iI]
+*.[wW][eE][bB][mM]
+*.[mM][kK][vV]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
+
+# Inference outputs and local logs
+runs/
+*.log
+
+# Local editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Do not ignore docs/images/: result screenshots belong in the repository.
